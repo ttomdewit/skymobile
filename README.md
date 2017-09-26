@@ -4,6 +4,8 @@ This package makes it easy to send Skymobile SMS notifications with Laravel 5.5.
 
 **Please note that the current documentation is out-of-sync with the package.**
 
+**Full credit to [Peter Steenbergen](http://petericebear.github.io) for his original work on [Messagebird](https://github.com/laravel-notification-channels/messagebird).**
+
 ## Contents
 
 - [Requirements](#requirements)
