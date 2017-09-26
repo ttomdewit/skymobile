@@ -1,0 +1,41 @@
+{
+    "name": "tomdewit/skymobile",
+    "description": "Skymobile notification channel for Laravel 5.5",
+    "homepage": "https://github.com/tomdewit/skymobile",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tom de Wit",
+            "email": "ttomdewit@gmail.com",
+            "homepage": "http://tomdewit.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "illuminate/notifications": "^5.5",
+        "illuminate/support": "^5.5",
+        "illuminate/queue": "^5.5",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tomdewit\\Skymobile\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tomdewit\\Skymobile\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
